@@ -23,17 +23,14 @@ public class MainActivity extends AppCompatActivity {
         decrypt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent dec = new Intent(MainActivity.this, Decrypt.class);
                 startActivity(dec);
-
             }
         });
 
         encrypt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent enc = new Intent(MainActivity.this, Encrypt.class);
                 startActivity(enc);
             }
